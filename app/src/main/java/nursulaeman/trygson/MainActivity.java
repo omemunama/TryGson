@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 //localhost or 127.0.0.1 , is refer to emulator device it self
                 //use 10.0.2.2, for access local server
-                new ApiConnect().execute("http://10.0.2.2:3000/api/v1/auth");
+                new ApiConnect().execute("http://private-ffdb7b-trygson.apiary-mock.com/users");
             }
         });
 
